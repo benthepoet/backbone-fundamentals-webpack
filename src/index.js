@@ -1,5 +1,7 @@
-const Backbone = require('backbone');
+var Backbone = require('backbone');
 
-Backbone.$(() => {
-  console.log('App Ready'); 
+var AppView = require('./app.view');
+
+Backbone.$(function () {
+  new AppView(); 
 });
