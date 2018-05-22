@@ -1,3 +1,4 @@
+// Import the Backbone module and its dependencies
 var Backbone = require('backbone');
 
 var viewOptions = {
