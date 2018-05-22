@@ -1,6 +1,7 @@
 // Import the Backbone module and its dependencies
 var Backbone = require('backbone');
 
+// Declare our options we'll use to extend the base view
 var viewOptions = {
   el: 'body',
   
@@ -13,4 +14,5 @@ var viewOptions = {
   }
 };
 
+// Export our extended view
 module.exports = Backbone.View.extend(viewOptions);
