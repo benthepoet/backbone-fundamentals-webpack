@@ -14,6 +14,10 @@ module.exports = {
       {
         test: /\.(js)$/,
         exclude: /node_modules/
+      },
+      {
+        test: /\.tpl$/,
+        use: 'raw-loader'
       }
     ]
   },

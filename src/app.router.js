@@ -1,4 +1,4 @@
-// Import the Backbone module and its dependencies
+// Import Backbone and its dependencies
 var Backbone = require('backbone');
 
 // Import our view
